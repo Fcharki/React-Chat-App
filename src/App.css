@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #0a2966;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.wrapper {
+  border: 1px solid whitesmoke;
+  padding: 100px;
+  border-radius: 6px;
+  background-color:#254c9b;
+}
+
+input{
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  border: #0b519c 2px solid;
+  height: 25px;
+  background-color: rgb(235, 242, 245);
+  margin: 3px;
+
+  
+}
+
+input::placeholder {
+  color: #999; 
+  font-style: italic; 
+  font-size: 14px;
+  font-weight: 200;
+  margin-left: 13px;
+}
+
+button{
+  margin: 3px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  width: 25%;
+  background-color: #de52ea;
+}
+
+.message{
+  border: #0b519c 2px solid;
+  margin: 3px;
+  background-color: aliceblue;
+  color: #252526;
+  border-radius: 4px;
+  padding: 5px;
+  width: 100%;
+  
+}
+
+.username{
+  color: rgb(189, 42, 202);
+  font-weight: bold;
+}
+
+.title{
+  color: rgb(217, 28, 235);
+
+}
